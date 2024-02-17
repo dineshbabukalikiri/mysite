@@ -1,0 +1,44 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <title>Home</title>
+</head>
+<body>
+    <div class="book"> 
+    <nav>
+         <ul>
+            <li><img src="https://cdn.oreillystatic.com/images/sitewide-headers/oreilly_logo_mark_red.svg" ></li>
+             <li><a href="#">Teams</a></li>
+             <li><a href="#">Individual</a></li>
+             <li><a href="#">Features</a></li>
+             <li><a href="#">Blog</a></li>
+             <li><a href="content">Content</a></li>
+         </ul>
+     </nav>
+    </div>
+     <div class="books-1">
+        <div class="book_lists">
+             <img src="{{book.book_image}}" >
+            <div class="book_disp">
+                <a href="{%  url "home" %}">Back to Home</a>
+                <h3> Book: {{book.book_title}}</h3>
+                <h3> Author: {{book.author_name}}</h3>
+               <h4> publications: {{book.publish}}</h4>
+               <p>{{book.disc}}</p>
+              <hr>
+            </div>
+            
+        </div>
+       </div> 
+  </div>
+  <div class="area">
+    <img src="https://cdn.oreillystatic.com/images/sitewide-headers/oreilly_logo_mark_red.svg" >
+    
+    <p>© 2023, O'Reilly Media, Inc. All trademarks and registered trademarks appearing on oreilly.com are the property of their respective owners.
+
+        Terms of service • Privacy policy • Editorial independence</p>
+</div>
+</body>  

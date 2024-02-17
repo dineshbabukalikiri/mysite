@@ -1,0 +1,25 @@
+.book{
+    background-color: rgb(186, 230, 255);
+}
+.book nav ul{
+    list-style: none;
+    display: flex;
+    padding: 20px;
+}
+.book nav ul li a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: rgb(229, 122, 110);
+    display: flex;
+    padding-left: 20px;
+}
+.book_lists{
+    display: flex;
+    margin: 30px;
+}
+.book_lists .book_disp{
+    padding: 30px;
+}
+.area{
+    display: flexbox;
+}

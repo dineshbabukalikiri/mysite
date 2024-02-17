@@ -1,0 +1,55 @@
+.book nav ul{
+    list-style: none;
+    display: flex;
+    padding: 20px;
+}
+.book nav ul li a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: rgb(229, 122, 110);
+    display: flex;
+    padding-left: 20px;
+}
+.book-form h2{
+text-align: center;
+}
+.container {
+    text-align: center;
+    margin-left: 300px;
+    width: 500px;
+    padding: 16px;
+    background-color: white;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+.input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  .submit_btn{
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+    
+  }
+  .submit_btn:hover{
+        opacity: 1;
+      
+  }
+
+  
